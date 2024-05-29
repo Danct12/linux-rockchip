@@ -12,7 +12,7 @@ config VIDEOBUF2_MEMOPS
 
 config VIDEOBUF2_CMA_SG
 	tristate
-	prompt "videobuf2 cma sg" if ROCKCHIP_MINI_KERNEL
+	prompt "videobuf2 cma sg"
 	select VIDEOBUF2_CORE
 	select VIDEOBUF2_MEMOPS
 
